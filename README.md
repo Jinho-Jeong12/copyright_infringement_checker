@@ -23,7 +23,7 @@
 
 ### Step 1 — 프로그램 다운로드
 
-1. 이 페이지 상단 오른쪽의 **`<> Code`** 버튼 클릭
+1. GitHub 페이지 (https://github.com/Jinho-Jeong12/copyright_infringement_checker) 오른쪽 상단의 **`<> Code`** 버튼 클릭
 2. **`Download ZIP`** 클릭하여 ZIP 파일 다운로드
 3. 다운로드된 ZIP 파일을 **원하는 폴더에 압축 해제**
    - Windows: ZIP 파일 우클릭 → `모두 추출`
