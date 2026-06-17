@@ -40,20 +40,34 @@
 
 ---
 
-### Step 3 — 프로그램 실행
+### Step 3 — 프로그램 실행 (Windows)
 
 압축 해제된 폴더에서 **`detect_copyright_6.py`** 파일을 **더블클릭**합니다.
 
 처음 실행 시 필요한 패키지(librosa, numpy, scipy 등)와 ffmpeg를 **자동으로 설치**합니다.
 인터넷이 연결된 상태에서 실행하세요. 설치가 완료되면 프로그램 화면이 열립니다.
 
-> ffmpeg 자동 설치가 실패할 경우 아래 명령을 직접 실행하세요.
->
-> | OS | 명령 |
-> |----|------|
-> | Windows | `winget install Gyan.FFmpeg` |
-> | macOS | `brew install ffmpeg` |
-> | Linux | `sudo apt install ffmpeg` |
+> ffmpeg 자동 설치가 실패할 경우 터미널에서 아래 명령을 실행하세요.
+> ```
+> winget install Gyan.FFmpeg
+> ```
+
+---
+
+### Step 3 — 프로그램 실행 (macOS)
+
+macOS에서는 `.py` 파일을 더블클릭해도 바로 실행되지 않을 수 있습니다. 아래 방법을 따르세요.
+
+1. **`detect_copyright_6.py`** 파일을 **우클릭** (트랙패드: 두 손가락 클릭)
+2. **"다음으로 열기"** → **"IDLE"** 을 선택합니다.
+3. IDLE 창이 열리면 상단 메뉴에서 **Run → Run Module** 을 클릭합니다. (단축키: `F5`)
+4. 처음 실행 시 필요한 패키지와 ffmpeg를 자동으로 설치합니다. 설치가 완료되면 프로그램 화면이 열립니다.
+
+> ffmpeg 자동 설치가 실패할 경우 터미널에서 아래 명령을 실행하세요.
+> ```
+> brew install ffmpeg
+> ```
+> Homebrew가 없다면 먼저 [brew.sh](https://brew.sh) 에서 설치하세요.
 
 ---
 
